@@ -1,3 +1,5 @@
+Javascript:
+
 This code binds storageProvider object in window scope and
 we can use session storage as storageProvider.sessionProvider OR
 local storage as storageProvider.localStorageProvider.
