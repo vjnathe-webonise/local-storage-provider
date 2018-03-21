@@ -86,6 +86,6 @@
     this.storageProvider = this.storageProvider || {};
     this.storageProvider.sessionStorageProvider = this.storageProvider.sessionStorageProvider || new SessionProvider();
     this.storageProvider.localStorageProvider = this.storageProvider.localStorageProvider || new LocalStorageProvider();
-    this.latas.cookieStorageProvider = this.latas.cookieStorageProvider || new CookieStorageProvider();
+    this.cookieStorageProvider = this.cookieStorageProvider || new CookieStorageProvider();
 
 }).call(this);
